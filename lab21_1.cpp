@@ -10,7 +10,7 @@ double overlap(Rect a,Rect b){
 
 	L1 = min((a.x)+(a.w),(b.x)+(b.w)) - max(a.x,b.x);
 	L2 = min((a.y),(b.y)) - max((a.y)-(a.h),(b.y)-(b.h));
-
+ 
 	sum = L1 * L2 ;
 	if(sum<0){
 		return 0;

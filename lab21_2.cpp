@@ -4,7 +4,7 @@ using namespace std;
 struct Rect{
 	double x,y,w,h;
 };
-
+ 
 double overlap(Rect *a,Rect *b){
 	double L1,L2,sum;
 
